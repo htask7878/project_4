@@ -6,7 +6,7 @@ import 'package:flutter_switch/flutter_switch.dart';
 class second extends StatefulWidget {
   String s1;
 
-  second(this.s1);
+  second(this.s1);//todo
 
   @override
   State<second> createState() => _secondState();
