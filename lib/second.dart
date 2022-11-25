@@ -97,7 +97,7 @@ class _secondState extends State<second> {
                       onTap: (status == true)
                           ? (l[index] == "" && winner == false)
                               ? () {
-                                    if (i % 2 == 0) {
+                                    if (index % 2 == 0) {
                                       l[index] = p1;
                                     } else {
                                       l[index] = p2;

@@ -101,6 +101,7 @@ class _firstState extends State<first> {
                 } else if (c == true) {
                   s1 = "O";
                   c = false;
+
                   // setState((){});
                   Navigator.push(context, MaterialPageRoute(
                     builder: (context) {
